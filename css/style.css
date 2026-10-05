@@ -44,3 +44,12 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
 }
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.texto {
+    margin-left: 150px;
+}
