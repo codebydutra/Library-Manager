@@ -33,6 +33,7 @@ a {
     display: block;
     padding: 10px;
     background-color: #04668C;
+    border-radius: 8px;
 }
 h1 {
     text-align: center;
@@ -44,12 +45,48 @@ h1 {
     max-width: 800px;
     margin: 20px auto;
 }
-
 section{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 .texto {
-    margin-left: 150px;
+    margin-left: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.botao{
+    background-color: #04668C;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 350px;
+}
+.botao:hover{
+    background-color: #8DC4E6;
+}
+footer {
+ background-color: #164A61;
+ color: white;
+ padding: 60px 30px 20px;
+}
+.footer-conteudo {
+ max-width: 1140px;
+ margin: auto;
+ display: flex;
+ justify-content: space-between;
+ gap: 50px;
+ padding-bottom: 50px;
+}
+.footer-final {
+ max-width: 1140px;
+ margin: auto;
+ padding-top: 20px;
+ display: flex;
+ justify-content: space-between;
+ gap: 20px;
+ color: #c8cec4;
+ font-size: 13px;
 }
